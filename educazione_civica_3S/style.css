@@ -1,0 +1,107 @@
+
+#testo-documento{
+    padding-left: 25%;
+    padding-right: 25%;
+    font-family: Titillium Web;
+    font-size: large;
+    background-color: white;
+}
+#cima{
+    background-color: #0066CC;
+    height: min-content;
+}
+#titolo{
+    padding-left: 15%;
+    color: white;
+    font-family: Titillium Web;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Titillium Web;
+    color: white;
+}
+
+#menu{
+    padding-left: 10%;
+    font-size: 18px;
+}
+
+#menu li{
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+#menu a:hover{
+    font-weight:bolder;
+}
+
+#header-content{
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+
+#sezione1{
+    align-items: center;
+    gap: 20px;
+}
+
+#titolo-sezione{
+    text-align: center;
+    font-family: Titillium Web;
+}
+
+.bottoni{
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: white;
+    color: #0066CC;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-family: Titillium Web;
+   }
+   
+   button:hover {
+    color: white;
+   }
+   
+   button:after {
+    content: "";
+    background: #0066CC;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+#immagine{
+    display: flex;
+    justify-content: center;
+}
